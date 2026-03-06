@@ -25,6 +25,26 @@
       .brand-logo { width: 56px; height: 56px; border-radius: 14px; object-fit: cover; box-shadow: 0 10px 25px rgba(0,0,0,.18); }
       .cta-row { margin-top: 18px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
 
+      .docs-nav {
+        text-align: center;
+        margin: 22px auto 8px;
+        font-size: 0.95rem;
+      }
+
+      .docs-nav a {
+        color: #9ea6d6;
+        text-decoration: none;
+        margin: 0 6px;
+      }
+
+      .docs-nav a:hover {
+        color: #ffffff;
+      }
+
+      .docs-nav span {
+        color: #666;
+      }
+
       .btn { border-radius: 6px; }
       .btn.primary {
         background: {{ site.theme_color | default: '#1F1A7A' }};
@@ -119,6 +139,14 @@
         </div>
       </div>
     </header>
+
+    <nav class="docs-nav" aria-label="Documentation navigation">
+      <a href="{{ '/index.html' | relative_url }}">Home</a>
+      <span>•</span>
+      <a href="{{ '/commands.html' | relative_url }}">Commands</a>
+      <span>•</span>
+      <a href="{{ '/embeds.html' | relative_url }}">Embed Designs</a>
+    </nav>
 
     <main id="content" class="main-content" role="main">
       {{ content }}
