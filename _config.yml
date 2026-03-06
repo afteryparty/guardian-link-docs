@@ -1,0 +1,16 @@
+theme: jekyll-theme-midnight
+
+title: "The Guardian Link"
+description: "Security automation for Discord — ban alerts, cross-server intelligence, and audit-ready moderation logs."
+
+show_downloads: false
+
+# Brand color (keep bot theme)
+theme_color: "#1F1A7A"
+
+# Branding / footer
+footer_brand: "Afterparty Bot Labs"
+footer_link: "https://afterpartylabs.xyz"
+
+# Logo
+logo: "/assets/css/img/logo.png"
