@@ -40,10 +40,10 @@ Built for **serious moderation teams**, Guardian Link helps prevent bad actors f
 ## 📚 Documentation
 
 **Embed Designs**  
-➡️ [View available embed styles](embeds.md)
+➡️ [View available embed styles](readme/embeds.md)
 
 **Commands**  
-➡️ [View command reference](commands.md)
+➡️ [View command reference](readme/commands.md)
 
 Full documentation is also available at:  
 https://afterparty.github.io/guardian-link-docs/
