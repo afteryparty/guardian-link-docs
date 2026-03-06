@@ -2,7 +2,7 @@
 
 # 🛡️ The Guardian Link
 
-<img src="assets/img/logo.png" width="110">
+<img src="assets/css/img/logo.png" width="110">
 
 **Security automation for Discord**
 Ban alerts • Cross-server intelligence • Moderation tracking
