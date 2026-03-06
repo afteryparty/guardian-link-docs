@@ -6,20 +6,20 @@
 :root {
   --guardian-primary: #1F1A7A;
   --guardian-primary-hover: #3128b8;
-  --guardian-link: #6c63ff;
-  --guardian-link-hover: #8a84ff;
+  --guardian-link: #7f8cff;
+  --guardian-link-hover: #a5adff;
   --guardian-text: #f2f4ff;
   --guardian-text-soft: #c7cbe6;
   --guardian-heading: #ffffff;
   --guardian-border: rgba(108, 99, 255, 0.22);
+  --guardian-muted: #9ea6d6;
 }
 
-/* Base text */
+/* Base */
 body {
   color: var(--guardian-text);
 }
 
-/* Main content layout */
 .page-header {
   text-align: center;
 }
@@ -30,7 +30,7 @@ body {
   color: var(--guardian-text);
 }
 
-/* Paragraphs and list text */
+/* Body copy */
 .main-content p,
 .main-content li,
 .main-content ul,
@@ -41,7 +41,9 @@ body {
 
 /* Strong text */
 .main-content strong,
-.main-content b {
+.main-content b,
+strong,
+b {
   color: var(--guardian-text);
 }
 
@@ -88,7 +90,6 @@ a:hover {
   transition: all 0.2s ease;
 }
 
-/* Button hover */
 .btn:hover {
   background: var(--guardian-primary-hover);
   border-color: var(--guardian-primary-hover);
@@ -96,25 +97,77 @@ a:hover {
   transform: translateY(-1px);
 }
 
-/* Horizontal rules / dividers */
+/* Rules / separators */
 hr {
   border-color: var(--guardian-border);
 }
 
-/* Section separators used by theme */
 .main-content h1,
 .main-content h2,
 .main-content h3 {
   border-bottom-color: var(--guardian-border);
 }
 
-/* Optional image polish */
+/* Images */
 img {
   max-width: 100%;
+  height: auto;
 }
 
-/* Muted small text */
+/* Embedded screenshots / preview images */
+.main-content img {
+  display: block;
+  margin: 12px auto;
+}
+
+/* Small / muted text */
 small,
 .main-content small {
-  color: #9ea6d6;
+  color: var(--guardian-muted);
+}
+
+/* Lists */
+.main-content ul,
+.main-content ol {
+  padding-left: 1.4rem;
+}
+
+/* Code blocks */
+code,
+pre {
+  color: #f8f8ff;
+}
+
+pre {
+  border-color: var(--guardian-border);
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 3px solid var(--guardian-primary);
+  padding-left: 1rem;
+  color: var(--guardian-text-soft);
+}
+
+/* Tables if used later */
+table {
+  color: var(--guardian-text);
+}
+
+th,
+td {
+  border-color: var(--guardian-border);
+}
+
+/* Footer polish */
+.site-footer {
+  color: var(--guardian-muted);
+}
+
+.site-footer a {
+  color: var(--guardian-text-soft);
+}
+
+.site-footer a:hover {
+  color: var(--guardian-heading);
 }
