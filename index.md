@@ -6,7 +6,7 @@ description: Security automation for Discord — ban alerts, cross-server intell
 
 <div align="center">
 
-<img src="assets/css/img/logo.png" width="96" alt="The Guardian Link logo">
+<img src="{{ '/assets/css/img/logo.png' | relative_url }}" width="96" alt="The Guardian Link logo">
 
 # The Guardian Link
 
@@ -17,12 +17,15 @@ Security automation for Discord — ban alerts, cross-server intelligence, and a
 <a href="https://discord.com/oauth2/authorize?client_id=1395491639459582113&scope=bot%20applications.commands&permissions=1375194967238">
   <img src="https://img.shields.io/badge/Add%20Bot-Invite-1F1A7A?style=for-the-badge&logo=discord&logoColor=white" alt="Invite The Guardian Link">
 </a>
+
 <a href="https://afterpartylabs.xyz/bot/guardian-link">
-  <img src="https://img.shields.io/badge/View%20Profile-AfterpartyLabs-1F1A7A?style=for-the-badge&logo=vercel&logoColor=white" alt="AfterpartyLabs page">
+  <img src="https://img.shields.io/badge/View%20Website-Guardian%20Link-1F1A7A?style=for-the-badge&logo=vercel&logoColor=white" alt="Guardian Link website">
 </a>
+
 <a href="https://top.gg/bot/1395491639459582113/vote">
-  <img src="https://img.shields.io/badge/Vote-Top.gg-ff3366?style=for-the-badge&logoColor=white" alt="Vote for The Guardian Link">
+  <img src="https://img.shields.io/badge/Vote-Top.gg-ff3366?style=for-the-badge" alt="Vote for The Guardian Link">
 </a>
+
 <a href="https://discord.com/invite/BusuZp2G8w">
   <img src="https://img.shields.io/badge/Support-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Guardian Link support server">
 </a>
@@ -37,16 +40,20 @@ Security automation for Discord — ban alerts, cross-server intelligence, and a
 
 ## Key Features
 
-- **Cross-server ban alerts** (linked/partner servers)
+- **Cross-server ban alerts** (linked / partner servers)
 - **Allowlists / denylists** to reduce false positives
 - **Audit-ready moderation logs** (clear records of actions)
 - **Configurable notifications** with multiple embed designs
 - **Slash commands** built for moderators and admins
 
+---
+
 ## Documentation
 
-- **Embed Designs:** see [Embed Designs](embeds.html)
-- **Commands:** see [Commands](commands.html)
+- **Embed Designs:** see [Embed Designs]({{ '/embeds.html' | relative_url }})
+- **Commands:** see [Commands]({{ '/commands.html' | relative_url }})
+
+---
 
 ## Getting Started (Server Admin)
 
