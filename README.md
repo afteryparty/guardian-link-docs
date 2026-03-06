@@ -9,7 +9,7 @@ Ban alerts • Cross-server intelligence • Moderation tracking
 
 <br>
 
-[![Documentation](https://img.shields.io/badge/Documentation-Guardian%20Link-1F1A7A?style=for-the-badge)](https://afterparty.github.io/guardian-link-docs/)
+[![Documentation](https://img.shields.io/badge/Documentation-Guardian%20Link-1F1A7A?style=for-the-badge)](https://afteryparty.github.io/guardian-link-docs/)
 [![Add Bot](https://img.shields.io/badge/Add%20Bot-Invite-1F1A7A?style=for-the-badge&logo=discord)](https://discord.com/oauth2/authorize?client_id=1395491639459582113&scope=bot%20applications.commands&permissions=1375194967238)
 [![Support](https://img.shields.io/badge/Support-Discord-5865F2?style=for-the-badge&logo=discord)](https://discord.com/invite/BusuZp2G8w)
 [![Vote](https://img.shields.io/badge/Vote-Top.gg-ff3366?style=for-the-badge)](https://top.gg/bot/1395491639459582113/vote)
@@ -40,13 +40,13 @@ Built for **serious moderation teams**, Guardian Link helps prevent bad actors f
 ## 📚 Documentation
 
 **Embed Designs**  
-➡️ [View available embed styles](readme/embeds.md)
+➡️ https://afteryparty.github.io/guardian-link-docs/readme/embeds.html
 
 **Commands**  
-➡️ [View command reference](readme/commands.md)
+➡️ https://afteryparty.github.io/guardian-link-docs/readme/commands.html
 
 Full documentation is also available at:  
-https://afterparty.github.io/guardian-link-docs/
+https://afteryparty.github.io/guardian-link-docs/
 
 ---
 
