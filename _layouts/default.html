@@ -7,9 +7,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
 
-    <link rel="icon" href="{{ '/assets/img/logo.png' | relative_url }}" type="image/png">
-    <link rel="shortcut icon" href="{{ '/assets/img/logo.png' | relative_url }}" type="image/png">
-    <link rel="apple-touch-icon" href="{{ '/assets/img/logo.png' | relative_url }}">
+    <link rel="icon" href="{{ '/assets/css/img/logo.png' | relative_url }}" type="image/png">
+    <link rel="shortcut icon" href="{{ '/assets/css/img/logo.png' | relative_url }}" type="image/png">
+    <link rel="apple-touch-icon" href="{{ '/assets/css/img/logo.png' | relative_url }}">
     <meta name="msapplication-TileColor" content="{{ site.theme_color | default: '#1F1A7A' }}">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -91,7 +91,6 @@
           {% if site.cta_vote_url %}
             <a href="{{ site.cta_vote_url }}" class="btn secondary">Vote</a>
           {% endif %}
-
           {% if site.github.is_project_page %}
             <a href="{{ site.github.repository_url }}" class="btn secondary">View on GitHub</a>
           {% endif %}
