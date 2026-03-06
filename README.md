@@ -9,7 +9,7 @@ Ban alerts • Cross-server intelligence • Moderation tracking
 
 <br>
 
-<a class="btn" href="https://afterparty.github.io/guardian-link-docs/">📚 Documentation</a> <a class="btn" href="https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&scope=bot%20applications.commands&permissions=8">➕ Add Bot</a> <a class="btn" href="https://discord.gg/YOUR_SUPPORT_SERVER">💬 Support</a>
+<a class="btn" href="https://afterparty.github.io/guardian-link-docs/">📚 Documentation</a> <a class="btn" href="https://discord.com/oauth2/authorize?client_id=1395491639459582113&scope=bot%20applications.commands&permissions=1375194967238">➕ Add Bot</a> <a class="btn" href="https://discord.com/invite/BusuZp2G8w">💬 Support</a>
 
 </div>
 
