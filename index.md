@@ -4,22 +4,12 @@ title: The Guardian Link
 description: Security automation for Discord — ban alerts, cross-server intelligence, and audit-ready moderation logs.
 ---
 
-<div align="center">
-
-<img src="https://afteryparty.github.io/guardian-link-docs/assets/css/img/logo.png" width="96" alt="The Guardian Link logo">
-
-# The Guardian Link
-
-Security automation for Discord — ban alerts, cross-server intelligence, and audit-ready moderation logs.
-
-</div>
-
----
-
 ## Overview
 
 **The Guardian Link** is a server security companion for Discord.  
 It helps moderation teams share ban alerts across linked servers, track moderation actions, and standardize notifications using configurable embed styles.
+
+---
 
 ## Key Features
 
