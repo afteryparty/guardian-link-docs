@@ -30,6 +30,28 @@ body {
   color: var(--guardian-text);
 }
 
+/* Docs nav */
+.docs-nav {
+  text-align: center;
+  margin: 22px auto 8px;
+  font-size: 0.95rem;
+}
+
+.docs-nav a {
+  color: var(--guardian-muted);
+  text-decoration: none;
+  margin: 0 6px;
+  transition: color 0.2s ease;
+}
+
+.docs-nav a:hover {
+  color: var(--guardian-heading);
+}
+
+.docs-nav span {
+  color: #666;
+}
+
 /* Body copy */
 .main-content p,
 .main-content li,
