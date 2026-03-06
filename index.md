@@ -33,8 +33,8 @@ It helps moderation teams share ban alerts across linked servers, track moderati
 
 ## Documentation
 
-- **Embed Designs:** see [Embed Designs](embeds.html)
-- **Commands:** see [Commands](commands.html)
+- **Embed Designs:** see [Embed Designs](readme/embeds.html)
+- **Commands:** see [Commands](readme/commands.html)
 
 ---
 
