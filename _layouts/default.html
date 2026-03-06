@@ -23,7 +23,7 @@
       .header-inner { max-width: 980px; margin: 0 auto; padding: 0 1rem; }
       .brand-row { display: flex; align-items: center; gap: 14px; justify-content: center; margin-bottom: 10px; flex-wrap: wrap; }
       .brand-logo { width: 56px; height: 56px; border-radius: 14px; object-fit: cover; box-shadow: 0 10px 25px rgba(0,0,0,.18); }
-      .cta-row { margin-top: 18px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+      .cta-row { margin-top: 18px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; align-items: center; }
 
       .btn { border-radius: 6px; }
       .btn.primary {
@@ -43,6 +43,54 @@
       }
       .btn.secondary:hover {
         background: rgba(255,255,255,.18);
+      }
+
+      .bot-switcher {
+        position: relative;
+        display: inline-block;
+      }
+
+      .bot-switcher-btn {
+        cursor: default;
+      }
+
+      .bot-menu {
+        position: absolute;
+        top: calc(100% + 8px);
+        left: 50%;
+        transform: translateX(-50%);
+        min-width: 220px;
+        background: #101722;
+        border: 1px solid rgba(255,255,255,.12);
+        border-radius: 12px;
+        box-shadow: 0 12px 30px rgba(0,0,0,.28);
+        padding: 8px;
+        z-index: 50;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transition: opacity 0.18s ease, transform 0.18s ease;
+      }
+
+      .bot-switcher:hover .bot-menu,
+      .bot-switcher:focus-within .bot-menu {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+        transform: translateX(-50%) translateY(0);
+      }
+
+      .bot-menu a {
+        display: block;
+        padding: 10px 12px;
+        border-radius: 8px;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 700;
+      }
+
+      .bot-menu a:hover {
+        background: rgba(255,255,255,.08);
       }
 
       .main-content { max-width: 980px; }
@@ -102,6 +150,15 @@
 
         <div class="cta-row">
           <a href="{{ '/index.html' | relative_url }}" class="btn secondary">Home</a>
+
+          <div class="bot-switcher">
+            <button type="button" class="btn secondary bot-switcher-btn">Our Bots ▼</button>
+            <div class="bot-menu">
+              <a href="https://afteryparty.github.io/guardian-link-docs/">Guardian Link</a>
+              <a href="https://afteryparty.github.io/voice-maestro-docs/">VoiceMaestro</a>
+              <a href="https://afteryparty.github.io/Verify-Bot-docs/">VerifyBot</a>
+            </div>
+          </div>
 
           {% if site.cta_invite_url %}
             <a href="{{ site.cta_invite_url }}" class="btn primary">Add Guardian Link</a>
