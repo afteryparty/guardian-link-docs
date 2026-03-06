@@ -15,19 +15,19 @@ Security automation for Discord — ban alerts, cross-server intelligence, and a
 <br>
 
 <a href="https://discord.com/oauth2/authorize?client_id=1395491639459582113&scope=bot%20applications.commands&permissions=1375194967238">
-  <img src="https://img.shields.io/badge/Add%20Bot-Invite-1F1A7A?style=for-the-badge&logo=discord&logoColor=white" alt="Invite The Guardian Link">
+  <img src="https://img.shields.io/badge/Add%20Bot-Invite-1F1A7A?style=for-the-badge&logo=discord&logoColor=white">
 </a>
 
 <a href="https://afterpartylabs.xyz/bot/guardian-link">
-  <img src="https://img.shields.io/badge/View%20Website-Guardian%20Link-1F1A7A?style=for-the-badge&logo=vercel&logoColor=white" alt="Guardian Link website">
+  <img src="https://img.shields.io/badge/View%20Website-Guardian%20Link-1F1A7A?style=for-the-badge">
 </a>
 
 <a href="https://top.gg/bot/1395491639459582113/vote">
-  <img src="https://img.shields.io/badge/Vote-Top.gg-ff3366?style=for-the-badge" alt="Vote for The Guardian Link">
+  <img src="https://img.shields.io/badge/Vote-Top.gg-ff3366?style=for-the-badge">
 </a>
 
 <a href="https://discord.com/invite/BusuZp2G8w">
-  <img src="https://img.shields.io/badge/Support-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Guardian Link support server">
+  <img src="https://img.shields.io/badge/Support-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
 </a>
 
 </div>
@@ -36,31 +36,32 @@ Security automation for Discord — ban alerts, cross-server intelligence, and a
 
 ## Overview
 
-**The Guardian Link** is a server security companion for Discord. It helps moderation teams share ban alerts across linked servers, track moderation actions, and standardize notifications using configurable embed styles.
+**The Guardian Link** is a server security companion for Discord.  
+It helps moderation teams share ban alerts across linked servers, track moderation actions, and standardize notifications using configurable embed styles.
 
 ## Key Features
 
-- **Cross-server ban alerts** (linked / partner servers)
-- **Allowlists / denylists** to reduce false positives
-- **Audit-ready moderation logs** (clear records of actions)
-- **Configurable notifications** with multiple embed designs
-- **Slash commands** built for moderators and admins
+- Cross-server ban alerts (linked / partner servers)
+- Allowlists / denylists to reduce false positives
+- Audit-ready moderation logs
+- Configurable notifications with multiple embed designs
+- Slash commands built for moderators and admins
 
 ---
 
 ## Documentation
 
-- **Embed Designs:** see [Embed Designs]({{ '/embeds.html' | relative_url }})
-- **Commands:** see [Commands]({{ '/commands.html' | relative_url }})
+- **Embed Designs:** see [Embed Designs](embeds.html)
+- **Commands:** see [Commands](commands.html)
 
 ---
 
 ## Getting Started (Server Admin)
 
-1. Invite the bot with the correct permissions.
-2. Configure the server link / network settings if applicable.
-3. Choose an embed style for alerts and logs.
-4. Run a test action and confirm the logging channels are correct.
+1. Invite the bot with the correct permissions  
+2. Configure the server link / network settings if applicable  
+3. Choose an embed style for alerts and logs  
+4. Run a test action and confirm logging channels are correct  
 
 ---
 
