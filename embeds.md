@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Embed Designs
-description: Available embed styles for The Guardian Link.
 ---
 
 # Embed Designs
 
-<img align="right" height="180" src="https://afteryparty.github.io/guardian-link-docs/assets/img/embeds/Embeds1.png" alt="1 | default (no pfp)" />
+
+<img align="right" width="320" src="/assets/img/embeds/Embeds1.png" />
 
 ### 1 | default (no pfp)
 A clean embed with all the information you need.  
@@ -14,21 +14,24 @@ This version does not show the banned user's profile picture.
 Available to all GuardianLink users.  
 <br clear="all" />
 
-<img align="left" height="180" src="https://afteryparty.github.io/guardian-link-docs/assets/img/embeds/Embeds2.png" alt="2 | default" />
+
+<img align="left" width="320" src="/assets/img/embeds/Embeds2.png" />
 
 ### 2 | default
 A clean embed with all the information you need.  
 Available to all GuardianLink users.  
 <br clear="all" />
 
-<img align="right" height="180" src="https://afteryparty.github.io/guardian-link-docs/assets/img/embeds/Embeds4.png" alt="4 | default (no motd)" />
+
+<img align="right" width="320" src="/assets/img/embeds/Embeds4.png" />
 
 ### 4 | ⭐ default (no motd)
 A clean embed with all the information you need.  
 This version does not show the MOTD — like you’re using an ad blocker.  
 <br clear="all" />
 
-<img align="left" height="180" src="https://afteryparty.github.io/guardian-link-docs/assets/img/embeds/Embeds5.png" alt="5 | Guardian Alert" />
+
+<img align="left" width="360" src="/assets/img/embeds/Embeds5.png" />
 
 ### 5 | ⭐ Guardian Alert
 Our signature GuardianLink alert style.  
