@@ -6,7 +6,7 @@ description: Security automation for Discord — ban alerts, cross-server intell
 
 <div align="center">
 
-<img src="{{ '/assets/css/img/logo.png' | relative_url }}" width="96" alt="The Guardian Link logo">
+<img src="https://afteryparty.github.io/guardian-link-docs/assets/css/img/logo.png" width="96" alt="The Guardian Link logo">
 
 # The Guardian Link
 
