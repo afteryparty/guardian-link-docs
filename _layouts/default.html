@@ -21,9 +21,27 @@
 
     <style>
       .header-inner { max-width: 980px; margin: 0 auto; padding: 0 1rem; }
-      .brand-row { display: flex; align-items: center; gap: 14px; justify-content: center; margin-bottom: 10px; flex-wrap: wrap; }
+      .brand-row { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; }
       .brand-logo { width: 56px; height: 56px; border-radius: 14px; object-fit: cover; box-shadow: 0 10px 25px rgba(0,0,0,.18); }
-      .cta-row { margin-top: 18px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; align-items: center; }
+      .brand-copy { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+      .project-name { margin: 0; }
+
+      .project-tagline {
+        margin: 14px auto 0;
+        max-width: 760px;
+        font-size: 0.98rem;
+        line-height: 1.55;
+        opacity: .92;
+      }
+
+      .cta-row {
+        margin-top: 14px;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+      }
 
       .btn { border-radius: 6px; }
       .btn.primary {
@@ -142,39 +160,41 @@
           {% if site.logo %}
             <img class="brand-logo" src="{{ site.logo | relative_url }}" alt="{{ site.title | default: site.github.repository_name }} logo">
           {% endif %}
-          <div>
+
+          <div class="brand-copy">
             <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+
+            <div class="cta-row">
+              <a href="{{ '/index.html' | relative_url }}" class="btn secondary">Home</a>
+
+              <div class="bot-switcher">
+                <button type="button" class="btn secondary bot-switcher-btn">Our Bots ▼</button>
+                <div class="bot-menu">
+                  <a href="https://afteryparty.github.io/guardian-link-docs/">Guardian Link</a>
+                  <a href="https://afteryparty.github.io/voice-maestro-docs/">VoiceMaestro</a>
+                  <a href="https://afteryparty.github.io/Verify-Bot-docs/">VerifyBot</a>
+                </div>
+              </div>
+
+              {% if site.cta_invite_url %}
+                <a href="{{ site.cta_invite_url }}" class="btn primary">Add Guardian Link</a>
+              {% endif %}
+              {% if site.cta_support_url %}
+                <a href="{{ site.cta_support_url }}" class="btn secondary">Join Support</a>
+              {% endif %}
+              {% if site.cta_website_url %}
+                <a href="{{ site.cta_website_url }}" class="btn secondary">View Bot Website</a>
+              {% endif %}
+              {% if site.cta_vote_url %}
+                <a href="{{ site.cta_vote_url }}" class="btn secondary">Vote</a>
+              {% endif %}
+              {% if site.github.is_project_page %}
+                <a href="{{ site.github.repository_url }}" class="btn secondary">View on GitHub</a>
+              {% endif %}
+            </div>
+
             <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
           </div>
-        </div>
-
-        <div class="cta-row">
-          <a href="{{ '/index.html' | relative_url }}" class="btn secondary">Home</a>
-
-          <div class="bot-switcher">
-            <button type="button" class="btn secondary bot-switcher-btn">Our Bots ▼</button>
-            <div class="bot-menu">
-              <a href="https://afteryparty.github.io/guardian-link-docs/">Guardian Link</a>
-              <a href="https://afteryparty.github.io/voice-maestro-docs/">VoiceMaestro</a>
-              <a href="https://afteryparty.github.io/Verify-Bot-docs/">VerifyBot</a>
-            </div>
-          </div>
-
-          {% if site.cta_invite_url %}
-            <a href="{{ site.cta_invite_url }}" class="btn primary">Add Guardian Link</a>
-          {% endif %}
-          {% if site.cta_support_url %}
-            <a href="{{ site.cta_support_url }}" class="btn secondary">Join Support</a>
-          {% endif %}
-          {% if site.cta_website_url %}
-            <a href="{{ site.cta_website_url }}" class="btn secondary">View Bot Website</a>
-          {% endif %}
-          {% if site.cta_vote_url %}
-            <a href="{{ site.cta_vote_url }}" class="btn secondary">Vote</a>
-          {% endif %}
-          {% if site.github.is_project_page %}
-            <a href="{{ site.github.repository_url }}" class="btn secondary">View on GitHub</a>
-          {% endif %}
         </div>
       </div>
     </header>
