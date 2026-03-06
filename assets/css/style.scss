@@ -3,16 +3,23 @@
 
 @import "jekyll-theme-midnight";
 
-/* Theme link color */
-a {
-  color: #1F1A7A;
+:root {
+  --guardian-primary: #1F1A7A;
+  --guardian-primary-hover: #3128b8;
+  --guardian-link: #6c63ff;
+  --guardian-link-hover: #8a84ff;
+  --guardian-text: #f2f4ff;
+  --guardian-text-soft: #c7cbe6;
+  --guardian-heading: #ffffff;
+  --guardian-border: rgba(108, 99, 255, 0.22);
 }
 
-a:hover {
-  color: #2b25a0;
+/* Base text */
+body {
+  color: var(--guardian-text);
 }
 
-/* Center page layout */
+/* Main content layout */
 .page-header {
   text-align: center;
 }
@@ -20,39 +27,94 @@ a:hover {
 .main-content {
   max-width: 900px;
   margin: auto;
+  color: var(--guardian-text);
 }
 
-/* Section headers */
-.main-content h2 {
-  color: #1F1A7A;
+/* Paragraphs and list text */
+.main-content p,
+.main-content li,
+.main-content ul,
+.main-content ol,
+.main-content blockquote {
+  color: var(--guardian-text-soft);
 }
 
-/* Fix header button container spacing */
+/* Strong text */
+.main-content strong,
+.main-content b {
+  color: var(--guardian-text);
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+  color: var(--guardian-heading);
+}
+
+/* Links */
+a {
+  color: var(--guardian-link);
+}
+
+a:hover {
+  color: var(--guardian-link-hover);
+}
+
+/* Header button spacing */
 .page-header .btn {
   margin: 6px 6px;
 }
 
-/* Override Midnight theme buttons */
+/* Buttons */
 .btn {
   display: inline-block;
   padding: 10px 16px;
   border-radius: 8px;
-  background: #1F1A7A;
-  border: 1px solid #1F1A7A;
+  background: var(--guardian-primary);
+  border: 1px solid var(--guardian-primary);
   color: #ffffff !important;
   text-decoration: none !important;
-  font-weight: 500;
+  font-weight: 600;
   transition: all 0.2s ease;
 }
 
 /* Button hover */
 .btn:hover {
-  background: #7f4ed1;
-  border-color: #7f4ed1;
+  background: var(--guardian-primary-hover);
+  border-color: var(--guardian-primary-hover);
+  color: #ffffff !important;
   transform: translateY(-1px);
 }
 
-/* Divider styling */
+/* Horizontal rules / dividers */
 hr {
-  border-color: #1F1A7A33;
+  border-color: var(--guardian-border);
+}
+
+/* Section separators used by theme */
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+  border-bottom-color: var(--guardian-border);
+}
+
+/* Optional image polish */
+img {
+  max-width: 100%;
+}
+
+/* Muted small text */
+small,
+.main-content small {
+  color: #9ea6d6;
 }
