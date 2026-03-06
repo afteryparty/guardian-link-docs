@@ -1,75 +1,71 @@
+---
+
+layout: default
+title: The Guardian Link
+description: Security automation for Discord — ban alerts, cross-server intelligence, and audit-ready moderation logs.
+----------------------------------------------------------------------------------------------------------------------
+
 <div align="center">
 
-# 🛡️ The Guardian Link
+<img src="{{ '/assets/css/img/logo.png' | relative_url }}" width="96" alt="The Guardian Link logo">
 
-<img src="assets/css/img/logo.png" width="110">
+# The Guardian Link
 
-**Security automation for Discord**
-Ban alerts • Cross-server intelligence • Moderation tracking
+Security automation for Discord — ban alerts, cross-server intelligence, and audit-ready moderation logs.
 
 <br>
 
-[![Documentation](https://img.shields.io/badge/Documentation-Guardian%20Link-1F1A7A?style=for-the-badge)](https://afteryparty.github.io/guardian-link-docs/)
-[![Add Bot](https://img.shields.io/badge/Add%20Bot-Invite-1F1A7A?style=for-the-badge\&logo=discord)](https://discord.com/oauth2/authorize?client_id=1395491639459582113&scope=bot%20applications.commands&permissions=1375194967238)
-[![Support](https://img.shields.io/badge/Support-Discord-5865F2?style=for-the-badge\&logo=discord)](https://discord.com/invite/BusuZp2G8w)
-[![Vote](https://img.shields.io/badge/Vote-Top.gg-ff3366?style=for-the-badge)](https://top.gg/bot/1395491639459582113/vote)
+<a href="https://discord.com/oauth2/authorize?client_id=1395491639459582113&scope=bot%20applications.commands&permissions=1375194967238">
+  <img src="https://img.shields.io/badge/Add%20Bot-Invite-1F1A7A?style=for-the-badge&logo=discord&logoColor=white" alt="Invite The Guardian Link" />
+</a>
+
+<a href="https://afterpartylabs.xyz/bot/guardian-link">
+  <img src="https://img.shields.io/badge/View%20Profile-AfterpartyLabs-1F1A7A?style=for-the-badge&logo=vercel&logoColor=white" alt="AfterpartyLabs page" />
+</a>
+
+<a href="https://top.gg/bot/1395491639459582113/vote">
+  <img src="https://img.shields.io/badge/Vote-Top.gg-ff3366?style=for-the-badge&logo=starship&logoColor=white" alt="Vote for The Guardian Link" />
+</a>
 
 </div>
 
 ---
 
-## 🔎 Overview
+## Overview
 
-**The Guardian Link** is a server security companion for Discord communities.
-It allows moderation teams to **share ban alerts across linked servers**, maintain clear moderation records, and standardize notifications using configurable embed designs.
-
-Built for **serious moderation teams**, Guardian Link helps prevent bad actors from hopping between communities.
+**The Guardian Link** is a server security companion for Discord.
+It helps moderation teams share ban alerts across linked servers, track moderation actions, and standardize notifications using configurable embed styles.
 
 ---
 
-## ⚡ Key Features
+## Key Features
 
-• Cross-server ban alerts (linked partner servers)
-• Allowlists / denylists to reduce false positives
-• Audit-ready moderation logs
-• Configurable alert embeds
-• Slash commands for moderation and setup
-
----
-
-## 📚 Documentation
-
-**Embed Designs**
-➡️ [View available embed styles](embeds.md)
-
-**Commands**
-➡️ [View command reference](commands.md)
-
-Full documentation is also available at:
-https://afterparty.github.io/guardian-link-docs/
+* **Cross-server ban alerts** (linked/partner servers)
+* **Allowlists / denylists** to reduce false positives
+* **Audit-ready moderation logs** (clear records of actions)
+* **Configurable notifications** with multiple embed designs
+* **Slash commands** built for moderators and admins
 
 ---
 
-## 🚀 Getting Started (Server Admin)
+## Documentation
 
-1. Invite the bot with the correct permissions
-2. Configure server link / network settings
-3. Choose an embed style for alerts and logs
-4. Run a test alert to confirm logging channels
+* **Embed Designs:** see [Embed Designs]({{ '/embeds/' | relative_url }})
+* **Commands:** see [Commands]({{ '/commands/' | relative_url }})
 
 ---
 
-## 🏢 Project
+## Getting Started (Server Admin)
 
-Guardian Link is developed and maintained by **Afterparty BotLabs**.
-
-Website
-https://afterpartylabs.xyz
+1. Invite the bot with the correct permissions.
+2. Configure the server link / network settings (if applicable).
+3. Choose an embed style for alerts and logs.
+4. Run a test action and confirm the logging channels are correct.
 
 ---
 
 <div align="center">
 
-Powered by **Afterparty BotLabs** © 2026
+Powered by **Afterparty BotLabs**
 
 </div>
