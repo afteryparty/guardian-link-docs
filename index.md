@@ -45,8 +45,8 @@ Security automation for Discord — ban alerts, cross-server intelligence, and a
 
 ## Documentation
 
-- **Embed Designs:** see [Embed Designs](embeds.md)
-- **Commands:** see [Commands](commands.md)
+- **Embed Designs:** see [Embed Designs](embeds.html)
+- **Commands:** see [Commands](commands.html)
 
 ## Getting Started (Server Admin)
 
