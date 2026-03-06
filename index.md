@@ -6,22 +6,25 @@ description: Security automation for Discord — ban alerts, cross-server intell
 
 <div align="center">
 
-<img src="/assets/css/img/logo.png" width="96" alt="The Guardian Link logo">
+<img src="assets/css/img/logo.png" width="96" alt="The Guardian Link logo">
 
 # The Guardian Link
+
 Security automation for Discord — ban alerts, cross-server intelligence, and audit-ready moderation logs.
 
 <br>
 
-<!-- TODO: Replace YOUR_CLIENT_ID and your vote/support links -->
-<a href="https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&permissions=8&scope=bot%20applications.commands">
+<a href="https://discord.com/oauth2/authorize?client_id=1395491639459582113&scope=bot%20applications.commands&permissions=1375194967238">
   <img src="https://img.shields.io/badge/Add%20Bot-Invite-1F1A7A?style=for-the-badge&logo=discord&logoColor=white" alt="Invite The Guardian Link" />
 </a>
 <a href="https://afterpartylabs.xyz/bot/guardian-link">
   <img src="https://img.shields.io/badge/View%20Profile-AfterpartyLabs-1F1A7A?style=for-the-badge&logo=vercel&logoColor=white" alt="AfterpartyLabs page" />
 </a>
-<a href="YOUR_VOTE_LINK">
-  <img src="https://img.shields.io/badge/Vote-Top.gg-1F1A7A?style=for-the-badge&logo=starship&logoColor=white" alt="Vote for The Guardian Link" />
+<a href="https://top.gg/bot/1395491639459582113/vote">
+  <img src="https://img.shields.io/badge/Vote-Top.gg-ff3366?style=for-the-badge&logo=starship&logoColor=white" alt="Vote for The Guardian Link" />
+</a>
+<a href="https://discord.com/invite/BusuZp2G8w">
+  <img src="https://img.shields.io/badge/Support-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Guardian Link support server" />
 </a>
 
 </div>
@@ -42,8 +45,8 @@ Security automation for Discord — ban alerts, cross-server intelligence, and a
 
 ## Documentation
 
-- **Embed Designs:** see [Embed Designs](/embeds.html)
-- **Commands:** see [Commands](/commands.html)
+- **Embed Designs:** see [Embed Designs](embeds.md)
+- **Commands:** see [Commands](commands.md)
 
 ## Getting Started (Server Admin)
 
@@ -52,4 +55,10 @@ Security automation for Discord — ban alerts, cross-server intelligence, and a
 3. Choose an embed style for alerts and logs.
 4. Run a test action and confirm the logging channels are correct.
 
-> If you want, I can tailor this page to your exact features (linking flow, required perms, settings commands) once you paste your current command list / config flow.
+---
+
+<div align="center">
+
+Powered by **Afterparty BotLabs**
+
+</div>
