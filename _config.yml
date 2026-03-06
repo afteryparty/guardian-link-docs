@@ -1,7 +1,11 @@
 title: The Guardian Link
 description: "Security automation for Discord — ban alerts, cross-server intelligence, and audit-ready moderation logs."
+
 theme: jekyll-theme-midnight
 theme_color: "#1F1A7A"
+
+url: "https://afteryparty.github.io"
+baseurl: "/guardian-link-docs"
 
 logo: "/assets/css/img/logo.png"
 
@@ -11,4 +15,4 @@ footer_link: "https://afterpartylabs.xyz"
 cta_invite_url: "https://discord.com/oauth2/authorize?client_id=1395491639459582113&scope=bot%20applications.commands&permissions=1375194967238"
 cta_support_url: "https://discord.com/invite/BusuZp2G8w"
 cta_vote_url: "https://top.gg/bot/1395491639459582113/vote"
-cta_dashboard_url: "https://afterpartylabs.xyz/bot/guardian-link"
+cta_website_url: "https://afterpartylabs.xyz/bot/guardian-link"
