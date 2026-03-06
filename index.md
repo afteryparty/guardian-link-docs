@@ -12,24 +12,6 @@ description: Security automation for Discord — ban alerts, cross-server intell
 
 Security automation for Discord — ban alerts, cross-server intelligence, and audit-ready moderation logs.
 
-<br>
-
-<a href="https://discord.com/oauth2/authorize?client_id=1395491639459582113&scope=bot%20applications.commands&permissions=1375194967238">
-  <img src="https://img.shields.io/badge/Add%20Bot-Invite-1F1A7A?style=for-the-badge&logo=discord&logoColor=white">
-</a>
-
-<a href="https://afterpartylabs.xyz/bot/guardian-link">
-  <img src="https://img.shields.io/badge/View%20Website-Guardian%20Link-1F1A7A?style=for-the-badge">
-</a>
-
-<a href="https://top.gg/bot/1395491639459582113/vote">
-  <img src="https://img.shields.io/badge/Vote-Top.gg-ff3366?style=for-the-badge">
-</a>
-
-<a href="https://discord.com/invite/BusuZp2G8w">
-  <img src="https://img.shields.io/badge/Support-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
-</a>
-
 </div>
 
 ---
@@ -61,12 +43,4 @@ It helps moderation teams share ban alerts across linked servers, track moderati
 1. Invite the bot with the correct permissions  
 2. Configure the server link / network settings if applicable  
 3. Choose an embed style for alerts and logs  
-4. Run a test action and confirm logging channels are correct  
-
----
-
-<div align="center">
-
-Powered by **Afterparty BotLabs**
-
-</div>
+4. Run a test action and confirm logging channels are correct
