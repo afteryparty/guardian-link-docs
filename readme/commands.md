@@ -6,6 +6,9 @@ description: List of available Guardian Link commands.
 
 # Commands
 
+See also:  
+[Incoming Blacklist Guide](incoming_blacklist.html)
+
 ---
 
 ### /ban <member> [reason]
@@ -31,6 +34,8 @@ See the full guide:
 
 Displays all currently blacklisted incoming words.
 
+Each entry will be assigned a number.
+
 See the full guide:  
 [Incoming Blacklist Guide](incoming_blacklist.html)
 
@@ -41,3 +46,14 @@ See the full guide:
 Removes a word from the incoming blacklist using its list number.
 
 The number can be obtained by running:
+
+```
+/blacklist incoming_list
+```
+
+See the full guide:  
+[Incoming Blacklist Guide](incoming_blacklist.html)
+
+---
+
+← Back to [Home](../index.html)
